@@ -1,0 +1,50 @@
+/* src/components/DepositForm/DepositForm.css */
+.deposit-form {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.deposit-form h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+/* Reuse form-group styles from GoalForm */
+.deposit-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.deposit-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.deposit-form .form-group input,
+.deposit-form .form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.deposit-form .submit-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.deposit-form .submit-btn:hover {
+  background: #219653;
+}
+
+.deposit-form .submit-btn:disabled {
+  background: #95a5a6;
+  cursor: not-allowed;
+}

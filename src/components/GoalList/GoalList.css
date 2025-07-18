@@ -1,0 +1,64 @@
+/* src/components/GoalList/GoalList.css */
+.goal-list {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.goal-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-item {
+  border: 1px solid #eee;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+}
+
+.goal-item.completed {
+  border-left: 4px solid #2ecc71;
+}
+
+.goal-item.warning {
+  border-left: 4px solid #f39c12;
+}
+
+.goal-item.overdue {
+  border-left: 4px solid #e74c3c;
+}
+
+.goal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.category {
+  background: #eee;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.warning-text {
+  color: #f39c12;
+  margin: 0.5rem 0 0;
+}
+
+.overdue-text {
+  color: #e74c3c;
+  margin: 0.5rem 0 0;
+}

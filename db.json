@@ -1,0 +1,32 @@
+{
+  "goals": [
+    {
+      "id": "e7b2",
+      "name": "eat",
+      "targetAmount": "100",
+      "category": "General",
+      "deadline": "2025-07-07"
+    },
+    {
+      "id": "f570",
+      "name": "buy a watch",
+      "targetAmount": "100",
+      "category": "Education",
+      "deadline": "2025-07-21"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "1dae",
+      "amount": 1,
+      "goalId": "",
+      "date": "2025-07-18"
+    },
+    {
+      "id": "addc",
+      "amount": 123,
+      "goalId": "e7b2",
+      "date": "2025-07-18"
+    }
+  ]
+}
