@@ -1,6 +1,8 @@
 # Smart Goal Planner
-
+![Project screenshot](./public/sceenshot2.png)
 ![Project Screenshot](./public/screenshot.png) 
+![Project Screenshot](./public/screenshot1.png)
+![Project Screenshot](./public/screenshot3.png)
 
 A financial goal management dashboard that helps users track multiple savings goals, allocate deposits, and monitor progress.
 
