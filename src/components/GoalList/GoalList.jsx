@@ -30,7 +30,7 @@ const GoalList = ({ goals, setGoals, deposits }) => {
 
   const handleDelete = async (goalId) => {
     try {
-      await fetch(`http://localhost:3001/goals/${goalId}`, {
+      await fetch(`https://goal-planner-kz4h.onrender.com/goals/${goalId}`, {
         method: 'DELETE',
       });
       setGoals(goals.filter(goal => goal.id !== goalId));

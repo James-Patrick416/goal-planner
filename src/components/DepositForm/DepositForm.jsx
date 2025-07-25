@@ -18,7 +18,7 @@ const DepositForm = ({ goals, deposits, setDeposits }) => {
     e.preventDefault();
     
     try {
-      const response = await fetch('http://localhost:3001/deposits', {
+      const response = await fetch('https://goal-planner-kz4h.onrender.com/deposits', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -19,8 +19,8 @@ const Dashboard = () => {
     const fetchData = async () => {
       try {
         const [goalsRes, depositsRes] = await Promise.all([
-          fetch('http://localhost:3001/goals'),
-          fetch('http://localhost:3001/deposits')
+          fetch('https://goal-planner-kz4h.onrender.com/goals'),
+          fetch('https://goal-planner-kz4h.onrender.com/deposits')
         ]);
         
         const goalsData = await goalsRes.json();

@@ -19,7 +19,7 @@ const GoalForm = ({ goals, setGoals }) => {
     e.preventDefault();
     
     try {
-      const response = await fetch('http://localhost:3001/goals', {
+      const response = await fetch('https://goal-planner-kz4h.onrender.com/goals', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

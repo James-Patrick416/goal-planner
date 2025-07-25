@@ -21,8 +21,11 @@ A financial goal management dashboard that helps users track multiple savings go
 - React Router
 - Chart.js (for data visualization)
 - date-fns (for date handling)
-- JSON Server (mock backend)
-- CSS Modules
+
+## Live Demo
+- **Frontend**: [https://goal-planner-blue.vercel.app/](https://goal-planner-blue.vercel.app/)
+- **Backend API**: [https://goal-planner-kz4h.onrender.com](https://goal-planner-kz4h.onrender.com)
+
 
 ## Installation & Setup
 
@@ -60,7 +63,6 @@ bash
 npm run dev
 
 Project Structure
-text
 smart-goal-planner/
 ├── src/
 │   ├── components/
@@ -75,6 +77,11 @@ smart-goal-planner/
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── App.css
+├── public/
+│   ├── sceenshot2.png
+│   ├── screenshot.png
+│   ├── screenshot1.png
+│   └── screenshot3.png
 ├── db.json
 ├── package.json
 └── README.md
